@@ -1,18 +1,20 @@
 # EVA6 S3 - MNIST Adder
 
+[TOC]
+
 In this project we create a neural network model that can do the following:
 
-### Inputs:
+### Inputs
 
 1.  Accept an image from the MNIST dataset and
 2. A random number between 0 and 9
 
-### Outputs:
+### Outputs
 
 1. The class label represented by the MNIST image
 2. Sum of the random number and the MNIST image.
 
-### Data Representation:
+### Data Representation
 
 1. Each image from MNIST test/training dataset is represented as a Tensor. Both the test and training images are normalized by the MNIST dataset mean and variance.  
 2. The labels are represented as the decimal number between 0 and 9
@@ -42,7 +44,7 @@ Total Loss = NLL loss on classification + NLL loss on Addition.
 
 The core loss function was PyTorch's F.Nllloss function. This is because the entire problem is posed as a classification task and the final output layer also uses a LogSoftmax which in turn outputs log-probabilities across classes. For the image classification, the classes are between 0-9 while for addition the classes are between 0-18.
 
-### Results and Evaluation:
+### Results and Evaluation
 
 Results were evaluated using the predicted vs actual accuracy on the Test Dataset for both classification and addition tasks:
 
@@ -56,7 +58,7 @@ Epoch: 48 Test set: *Average Sum Loss*:0.2246130622267723 Accuracy: 9858/10000 (
 Epoch: 49 Test set: Average class loss: 0.025573136833245372, Accuracy: 9961/10000 (99.61%)
 ```
 
-### Training Logs:
+### Training Logs
 
 `
 
@@ -163,3 +165,6 @@ Epoch: 49 Test set: Average Sum Loss:0.2610436644792557 Accuracy: 9852/10000 (98
 
 Training logs`
 
+### Notebook Link
+
+https://github.com/rajy4683/EVA6/blob/master/EVA6S3/EVA6Session3_FirstAt.ipynb
