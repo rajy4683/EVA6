@@ -1,6 +1,6 @@
 # EVA6 S3 - MNIST Adder
 
-In this project we will be creating a neural network model that can do the following:
+In this project we create a neural network model that can do the following:
 
 ### Inputs:
 
