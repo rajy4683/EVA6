@@ -47,13 +47,20 @@ All model definitions can be found **[here](https://github.com/rajy4683/EVA6/blo
 
 ## Training Mechanism
 
-Hyperparameters used for every model can be found in this [link](). Standard training and test datasets were used.
+Hyperparameters used for every model can be found in this [link](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/notebooks/hyperparams.txt). Standard training and test datasets were used.
 
 For MNIST-Small and MNIST-Ultrasmall, additional augmentation such as Random rotation between (-5.0, 5.0) was applied during training.
 
 ## Model Graphs
 
-[Netron](https://github.com/lutzroeder/netron) is an extremely handy tool to quickly visualize traced PyTorch models. Below are the visualizations for each of the models:
+[Netron](https://github.com/lutzroeder/netron) is an extremely handy tool to quickly visualize traced PyTorch models. Below is the visualization for MNIST-Medium:
+
+![MNIST Medium Model](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/pngs/MNIST_Medium_model.png)
+Below are the links for MNIST-Small and MNIST-UltraSmall
+
+[MNIST Small](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/pngs/MNIST_Small_model.png)
+
+[MNIST UltraSmall](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/pngs/MNIST_UltraSmall_model.png)
 
 ## Training Logs and Visualizations
 
