@@ -12,12 +12,14 @@ We explore the following functionalities of a simple Neural network that has 2 w
 
 The neural network consists of 2 layers with each layer having 2 weights and there are 2 inputs to the network. The network is shown below:
 
-![Simple NN]()
+![Simple NN](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/part1_excel/Basic2LayerNN.PNG)
 
 ## Screenshots of Training
 
-
+![Training hard in MS Excel](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/part1_excel/ExcelLRpoint5.PNG)
 
 ## Loss vs LR Curve
+![Loss curves](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/part1_excel/LossVsLR.jpg)
 
 ## Final Workbook
+[Neural Network in MS Excel](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/part1_excel/NN.xlsx)
