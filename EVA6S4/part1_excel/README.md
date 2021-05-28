@@ -3,7 +3,7 @@
 ## Objective
 We explore the following functionalities of a simple Neural network that has 2 weights:
 
-1. Forward Propagation and predicted result
+1. Forward Propagation through weight multiplication across multiple layer to predict results
 2. Calculated loss (Mean Squared Error) against the actual values
 3. Calculate gradients across each layer of weights with respect to the loss
 4. Perform weight update for each of the layer based on the calculated gradients
