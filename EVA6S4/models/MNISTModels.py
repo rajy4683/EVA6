@@ -29,7 +29,7 @@ class MNISTMedium(nn.Module):
             # nn.BatchNorm2d(8),
             nn.MaxPool2d(2, 2),            # Input=8x28x28 Output=8x14x14 RF=6
             nn.Dropout(self.dropout_val),
-            nn.Conv2d(8, 8, 1)
+            # nn.Conv2d(8, 8, 1)
         )
         
         self.conv2 = nn.Sequential(
@@ -37,12 +37,13 @@ class MNISTMedium(nn.Module):
             nn.ReLU(),
             nn.BatchNorm2d(8),
             nn.Dropout(self.dropout_val),
+            # nn.Conv2d(8, 16, 1),
             nn.Conv2d(8, 16, 3, padding=1, bias=self.bias), # Input=8x14x14 Output=16x14x14 RF=14
             nn.ReLU(),
             nn.BatchNorm2d(16),
             nn.MaxPool2d(2, 2), # Input=16x14x14 Output=16x7x7 RF=16
             nn.Dropout(self.dropout_val),
-            nn.Conv2d(16, 16, 1)
+            # nn.Conv2d(16, 16, 1)
         )
         
         self.conv3 = nn.Sequential(
@@ -58,8 +59,8 @@ class MNISTMedium(nn.Module):
         )
         
         self.gap_linear = nn.Sequential(
-            nn.AdaptiveAvgPool2d((1,1)), # Input=16x1x1 Output=16x1x1 RF=36
-            nn.Conv2d(16, 10, 1, bias=self.bias) # Input=16x1x1 Output=10x1x1 RF=36
+            nn.AdaptiveAvgPool2d((1,1)), 
+            nn.Conv2d(16, 10, 1, bias=self.bias)
         )
                 
         
@@ -68,11 +69,11 @@ class MNISTMedium(nn.Module):
         x = self.conv2(x)
         x = self.conv3(x)
         
+        #x = x.view(x.size(0), -1)
         x = self.gap_linear(x)
         x = x.view(-1, 10)
         x = F.log_softmax(x, dim=1)
         return x
-
 
 class MNISTSmall(nn.Module):
     """
@@ -153,7 +154,6 @@ class MNISTUltraSmall(nn.Module):
             nn.BatchNorm2d(8),
             nn.MaxPool2d(2, 2),            # Input=8x28x28 Output=8x14x14 RF=6
             nn.Dropout(self.dropout_val),
-            nn.Conv2d(8, 8, 1)
         )
         
         self.conv2 = nn.Sequential(
