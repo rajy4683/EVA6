@@ -4,7 +4,7 @@
  
  Below are the links for training notebooks. 
  
- Please visit my **[website](https://rekogwebservice.tk/)** for demo of some of models in action.
+ Please visit my **[website](https://rekogwebservice.tk/)** for demo of some of the models in action.
 
 ## Assignment List
 

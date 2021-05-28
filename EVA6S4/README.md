@@ -20,9 +20,9 @@ Following models are available:
 
 | Model Name       | Parameter Count | File Size | Max Validation Accuracy | Conv Blocks | Max Receptive Field | Model State_Dict                                             | Training Notebook                                            |
 | :--------------- | --------------- | --------- | ----------------------- | ----------- | ------------------- | ------------------------------------------------------------ | ------------------------------------------------------------ |
-| MNIST-Medium     | 7632            | 45KB      | 99.44                   | 3           |                     | [Model Medium](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/saved_dict/mnist_medium.pth) | [Train Medium](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/notebooks/MNIST_Medium_EVA6S4.ipynb) |
-| MNIST-Small      | 5616            | 36KB      | 99.25                   | 2           |                     | [Model Small](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/saved_dict/mnist_small.pth) | [Train Small](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/notebooks/MNIST_Small_EVA6S4.ipynb) |
-| MNIST-UltraSmall | 4464            | 33.2KB    | 99.00                   | 2           |                     | [Model UltraSmall](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/saved_dict/mnist_ultrasmall.pth) | [Train UltraSmall](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/notebooks/MNIST_UltraSmall_EVA6S4.ipynb) |
+| MNIST-Medium     | 7632            | 45KB      | 99.44                   | 3           | 32                  | [Model Medium](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/saved_dict/mnist_medium.pth) | [Train Medium](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/notebooks/MNIST_Medium_EVA6S4.ipynb) |
+| MNIST-Small      | 5616            | 36KB      | 99.25                   | 2           | 20                  | [Model Small](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/saved_dict/mnist_small.pth) | [Train Small](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/notebooks/MNIST_Small_EVA6S4.ipynb) |
+| MNIST-UltraSmall | 4464            | 33.2KB    | 99.00                   | 2           | 35                  | [Model UltraSmall](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/saved_dict/mnist_ultrasmall.pth) | [Train UltraSmall](https://github.com/rajy4683/EVA6/blob/master/EVA6S4/notebooks/MNIST_UltraSmall_EVA6S4.ipynb) |
 
 ## Model Architecture:
 
