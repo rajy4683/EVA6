@@ -1,0 +1,54 @@
+hyperparameter_mnist_medium = dict(
+    dropout = 0.1,
+    channels_one = 16,
+    channels_two = 32,
+    batch_size = 64,
+    test_batch_size=34,
+    lr = 0.01,
+    momentum = 0.9,
+    no_cuda = False,
+    seed = 1,
+    epochs = 19,
+    bias = False,
+    log_interval = 11,
+    sched_lr_gamma = 0.5,
+    sched_lr_step= 1,
+    start_lr = 5
+    )
+
+
+hyperparameter_mnist_small = dict(
+    dropout = 0.02,
+    channels_one = 16,
+    channels_two = 32,
+    batch_size = 32,
+    test_batch_size=34,
+    lr = 0.061005, 
+    momentum = 0.9,
+    no_cuda = False,
+    seed = 1,
+    epochs = 19,
+    bias = False,
+    log_interval = 11,
+    sched_lr_gamma = 0.5,
+    sched_lr_step= 1,
+    start_lr = 5
+    )
+
+hyperparameter_ultrasmall = dict(
+    dropout = 0.02,
+    channels_one = 16,
+    channels_two = 32,
+    batch_size = 32,
+    test_batch_size=34,
+    lr = 0.025, 
+    momentum = 0.9,
+    no_cuda = False,
+    seed = 1,
+    epochs = 19,
+    bias = False,
+    log_interval = 11,
+    sched_lr_gamma = 0.5,
+    sched_lr_step= 1,
+    start_lr = 5
+    )

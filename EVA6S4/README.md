@@ -7,7 +7,8 @@
 3. [Model Architecture](#model-architecture)
 4. [Training Mechanism](#training-mechanism)
 5. [Model Graphs](#model-graphs)
-6. [References](#references)
+6. [Training Logs and Visualizations](#training-logs-and-visualizations)
+7. [References](#references)
 
 ## Overview:
 
@@ -113,6 +114,8 @@ loss=0.020643873140215874 batch_id=937: 100%|██████████| 938
 Epoch: 18 Test set: Average loss: 0.0212, Accuracy: 9934/10000 (99.340%)
 Epoch: 19 Train set: Average loss: 0.0006, Accuracy: 59230/60000 (98.717%)
 ```
+
+Results are other models can be found in this [path](https://github.com/rajy4683/EVA6/tree/master/EVA6S4/pngs)
 
 ## References
 
