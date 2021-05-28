@@ -9,11 +9,11 @@
 5. [Model Graphs](#model-graphs)
 6. [References](#references)
 
-### Overview:
+## Overview:
 
  This repo contains Convolution models(in PyTorch) convolution-only model that attain accuracy of between 99-99.4% on Handwritten digits i.e [MNIST Dataset](http://yann.lecun.com/exdb/mnist/).
 
-### Available Models:
+## Available Models:
 
 Following models are available:
 
@@ -23,7 +23,7 @@ Following models are available:
 | MNIST-Small      | 5616            | 36KB      | 99.25                   | 2           |                     |                  |                   |
 | MNIST-UltraSmall | 4464            | 33.2KB    | 99.00                   | 2           |                     |                  |                   |
 
-### Model Architecture:
+## Model Architecture:
 
 In general, the above models are structured as:
 
@@ -42,16 +42,18 @@ Each **convolution block** has following layers:
 
 Negative Log-likelihood is the loss function used.
 
-### Training Mechanism
+All model definitions can be found **[here](https://github.com/rajy4683/EVA6/tree/master/EVA6S4/models/MNISTModels.py)**
+
+## Training Mechanism
 
 Hyperparameters used for every model can be found in this [link](). Standard training and test datasets were used.
 
 For MNIST-Small and MNIST-Ultrasmall, additional augmentation such as Random rotation between (-5.0, 5.0) was applied during training.
 
-### Model Graphs
+## Model Graphs
 
 [Netron](https://github.com/lutzroeder/netron) is an extremely handy tool to quickly visualize traced PyTorch models. Below are the visualizations for each of the models:
 
-### References
+## References
 
 Awesome course content from TSAI.
