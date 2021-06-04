@@ -34,6 +34,10 @@ Epoch: 14 Test set: Average loss: 0.0230, Accuracy: 9940/10000 (99.400%)
     b. Smaller and more compact model with even lesser params.
 5. Given that already the model is able to perform well, the idea was to push the parameters down further and explore Augmentation/StepLR strategies
 
+### Link
+
+https://github.com/rajy4683/EVA6/blob/master/EVA6S5/S5EVA6_Attempt1.ipynb
+
 ## Attempt 2
 ### Target:
 1. Reduce parameters from previous model by decreasing the number of channels in 2nd conv block
@@ -45,6 +49,9 @@ Total Parameters: 7310
 
     Epoch: 14 Test set: Average loss: 0.0182, Accuracy: 9943/10000 (99.430%)
     Epoch: 15 Test set: Average loss: 0.0198, Accuracy: 9940/10000 (99.400%)
+
+### Link:
+https://github.com/rajy4683/EVA6/blob/master/EVA6S5/S5EVA6_Attempt2.ipynb
 
 ## Attempt 3
 ### Analysis:
@@ -72,6 +79,9 @@ Analysis:
 2. Still in underfitting zone
 3. Doesn't achieve constant accuracy over multiple epochs
 
+### Link:
+https://github.com/rajy4683/EVA6/blob/master/EVA6S5/S5EVA6_Attempt3.ipynb
+
 ## Attempt 4 - Final
 Target:
 1. Achieve stable accuracy in last few 99.4
@@ -95,3 +105,6 @@ Analysis:
     a. If LR was reduced every run with a large gamma(0.1), then accuracy targets were not achieved    
     b. Till 8th epoch, model seemed to be happy with the default LR    
     c. Reducing LR (with gamma=0.09) post 8th epoch gave much more consistent results.
+
+### Link:
+https://github.com/rajy4683/EVA6/blob/master/EVA6S5/S5EVA6_FinalModel.ipynb
