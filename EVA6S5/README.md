@@ -83,12 +83,13 @@ Analysis:
 https://github.com/rajy4683/EVA6/blob/master/EVA6S5/S5EVA6_Attempt3.ipynb
 
 ## Attempt 4 - Final
-Target:
+### Target:
+
 1. Achieve stable accuracy in last few 99.4
 2. Add LR Scheduling
 3. Tweak Dropout as the previous models were still in the underfitting zone.
 
-Results: 
+### Results: 
 
 Total Parameters = 7288
 
@@ -98,8 +99,8 @@ Total Parameters = 7288
     Epoch: 14 Test set: Average loss: 0.0193, Accuracy: 9942/10000 (99.420%)
     Epoch: 15 Test set: Average loss: 0.0194, Accuracy: 9941/10000 (99.410%)
 
+### Analysis:
 
-Analysis:
 1. Stable accuracy reached with both Image Augmentation and LR scheduling.
 2. With LR scheduling, few observations were found:    
     a. If LR was reduced every run with a large gamma(0.1), then accuracy targets were not achieved    
