@@ -1,4 +1,4 @@
-# Assignment 6: MNIST Model Development in Stages
+# Assignment 5: MNIST Model Development in Stages
 
 
 

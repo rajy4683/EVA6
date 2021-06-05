@@ -10,3 +10,4 @@
 
 1. [MNIST Adder](https://github.com/rajy4683/EVA6/tree/master/EVA6S3) - Session 3
 2. [Small CNNs for Handwritten Digit recognition(MNIST)](https://github.com/rajy4683/EVA6/tree/master/EVA6S4) - Session 4
+2. [MNIST Model Development in Stages](https://github.com/rajy4683/EVA6/tree/master/EVA6S5) - Session 5 
