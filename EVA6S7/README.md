@@ -1,6 +1,6 @@
 # Advanced Convolutions applied to CIFAR10
 
-In this repo, we test drive a variety of convolutions such as depth-wise separable convolutions, atrous/dilated convolutions to achieve a Fully Convolutional Neural network that can achieve ~85% test accuracy on CIFAR-10 dataset. 
+In this repo, we test drive a variety of convolutions such as depth-wise separable convolutions, atrous/dilated convolutions to achieve a Fully Convolutional Neural network that achieves **85.75% ** test accuracy on CIFAR-10 dataset. 
 
 ## Model Summary
 
@@ -78,12 +78,69 @@ Final Receptive field = 73
 3. CoarseDropout with 1 hole of 16x16
 
 Samples of Augmented images are below:
-![Augmented Images]()
+![Augmented Images](https://github.com/rajy4683/EVA6/blob/master/EVA6S7/imgs/S7EVA6_AugmentedImages.png)
 
 ## Training Logs
 Training was performed with using both One Cycle LR policy and CyclicLR. Below are the accuracy and loss plots:
-![]()
-![]()
+![Accuracy Plots](https://github.com/rajy4683/EVA6/blob/master/EVA6S7/imgs/S7EVA6_AccuracyPlots.png)
+![Loss Plots](https://github.com/rajy4683/EVA6/blob/master/EVA6S7/imgs/S7EVA6_LossPlots.png)
+![Classwise Accuracy](https://github.com/rajy4683/EVA6/blob/master/EVA6S7/imgs/S7EVA6_ClasswiseAccuracy.png)
+
+```
+Epoch: 84 Test set: Average loss: 0.4903, Accuracy: 83.310%
+loss=0.678766667842865 batch_id=97: 100%|██████████| 98/98 [00:31<00:00,  3.07it/s]
+Epoch: 85 Train set: Average loss: 0.7233, Accuracy: 74.366%, lr:0
+Epoch: 85 Test set: Average loss: 0.4863, Accuracy: 83.540%
+loss=0.7115206122398376 batch_id=97: 100%|██████████| 98/98 [00:31<00:00,  3.07it/s]
+Epoch: 86 Train set: Average loss: 0.7133, Accuracy: 75.110%, lr:0
+Epoch: 86 Test set: Average loss: 0.4877, Accuracy: 83.410%
+loss=0.7396487593650818 batch_id=97: 100%|██████████| 98/98 [00:32<00:00,  3.06it/s]
+Epoch: 87 Train set: Average loss: 0.7117, Accuracy: 75.006%, lr:0
+Epoch: 87 Test set: Average loss: 0.4771, Accuracy: 83.730%
+loss=0.7843133211135864 batch_id=97: 100%|██████████| 98/98 [00:32<00:00,  3.05it/s]
+Epoch: 88 Train set: Average loss: 0.7034, Accuracy: 75.210%, lr:0
+Epoch: 88 Test set: Average loss: 0.4730, Accuracy: 83.920%
+loss=0.7435541152954102 batch_id=97: 100%|██████████| 98/98 [00:32<00:00,  3.06it/s]
+Epoch: 89 Train set: Average loss: 0.6997, Accuracy: 75.308%, lr:0
+Epoch: 89 Test set: Average loss: 0.4700, Accuracy: 83.950%
+loss=0.693544864654541 batch_id=97: 100%|██████████| 98/98 [00:31<00:00,  3.07it/s]
+Epoch: 90 Train set: Average loss: 0.6985, Accuracy: 75.440%, lr:0
+Epoch: 90 Test set: Average loss: 0.4707, Accuracy: 83.980%
+loss=0.7059686779975891 batch_id=97: 100%|██████████| 98/98 [00:32<00:00,  3.06it/s]
+Epoch: 91 Train set: Average loss: 0.6910, Accuracy: 75.500%, lr:0
+Epoch: 91 Test set: Average loss: 0.4744, Accuracy: 83.870%
+loss=0.6287901997566223 batch_id=97: 100%|██████████| 98/98 [00:32<00:00,  3.06it/s]
+Epoch: 92 Train set: Average loss: 0.6915, Accuracy: 75.698%, lr:0
+Epoch: 92 Test set: Average loss: 0.4504, Accuracy: 84.780%
+Model saved as Test Accuracy increased from  84.68  to  84.78
+loss=0.7617901563644409 batch_id=97: 100%|██████████| 98/98 [00:32<00:00,  3.05it/s]
+Epoch: 93 Train set: Average loss: 0.6792, Accuracy: 76.060%, lr:0
+Epoch: 93 Test set: Average loss: 0.4327, Accuracy: 85.450%
+Model saved as Test Accuracy increased from  84.78  to  85.45
+Epoch: 94 Train set: Average loss: 0.6752, Accuracy: 76.422%, lr:0
+Epoch: 94 Test set: Average loss: 0.4375, Accuracy: 85.060%
+loss=0.6648911833763123 batch_id=97: 100%|██████████| 98/98 [00:31<00:00,  3.08it/s]
+Epoch: 95 Train set: Average loss: 0.6714, Accuracy: 76.556%, lr:0
+Epoch: 95 Test set: Average loss: 0.4295, Accuracy: 85.240%
+loss=0.69306480884552 batch_id=97: 100%|██████████| 98/98 [00:31<00:00,  3.07it/s]
+Epoch: 96 Train set: Average loss: 0.6558, Accuracy: 76.812%, lr:0
+Epoch: 96 Test set: Average loss: 0.4299, Accuracy: 85.190%
+loss=0.5959483981132507 batch_id=97: 100%|██████████| 98/98 [00:32<00:00,  3.05it/s]
+Epoch: 97 Train set: Average loss: 0.6598, Accuracy: 76.764%, lr:0
+Epoch: 97 Test set: Average loss: 0.4324, Accuracy: 85.120%
+loss=0.6442763209342957 batch_id=97: 100%|██████████| 98/98 [00:32<00:00,  3.06it/s]
+loss=0.7094371318817139 batch_id=97: 100%|██████████| 98/98 [00:32<00:00,  3.06it/s]
+Epoch: 98 Train set: Average loss: 0.6504, Accuracy: 77.166%, lr:0
+Epoch: 98 Test set: Average loss: 0.4216, Accuracy: 85.710%
+Model saved as Test Accuracy increased from  85.45  to  85.71
+loss=0.6451497077941895 batch_id=97: 100%|██████████| 98/98 [00:32<00:00,  3.05it/s]
+Epoch: 99 Train set: Average loss: 0.6509, Accuracy: 77.190%, lr:0
+Epoch: 99 Test set: Average loss: 0.4231, Accuracy: 85.580%
+Epoch: 100 Train set: Average loss: 0.6412, Accuracy: 77.386%, lr:0
+Epoch: 100 Test set: Average loss: 0.4182, Accuracy: 85.750%
+Model saved as Test Accuracy increased from  85.71  to  85.75
+Final model save path: /content/model_saves/model-26c43ba9ed.pt  best Accuracy: 85.75
+```
 
 The model code and training functions are available in [this repo](https://github.com/rajy4683/mini-Rekog)
 
