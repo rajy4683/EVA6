@@ -2,6 +2,8 @@
 
 In this repo, we test drive a variety of convolutions such as depth-wise separable convolutions, atrous/dilated convolutions to achieve a Fully Convolutional Neural network that achieves **85.75% ** test accuracy on CIFAR-10 dataset. 
 
+Notebook used for training can be found [here]
+
 ## Model Summary
 
 The final model has 4 Convolution blocks with 136,032 parameters.
@@ -78,6 +80,7 @@ Final Receptive field = 73
 3. CoarseDropout with 1 hole of 16x16
 
 Samples of Augmented images are below:
+
 ![Augmented Images](https://github.com/rajy4683/EVA6/blob/master/EVA6S7/imgs/S7EVA6_AugmentedImages.png)
 
 ## Training Logs
@@ -141,6 +144,7 @@ Epoch: 100 Test set: Average loss: 0.4182, Accuracy: 85.750%
 Model saved as Test Accuracy increased from  85.71  to  85.75
 Final model save path: /content/model_saves/model-26c43ba9ed.pt  best Accuracy: 85.75
 ```
-
-The model code and training functions are available in [this repo](https://github.com/rajy4683/mini-Rekog)
+## Links
+1. Model and Training code is packaged in **[this repo](https://github.com/rajy4683/mini-Rekog)**
+2. Notebook used for training can be found **[here](https://github.com/rajy4683/EVA6/blob/master/EVA6S7/S7EVA4_AdvancedConv_Final.ipynb)**
 
