@@ -1,6 +1,6 @@
 # ResNet Models on CIFAR10
 
-In this repo, we evaluate modified ResNet18 model (using LayerNorm instead of BatchNormalization) to achieve **82.99% ** test accuracy on CIFAR-10 dataset. 
+In this repo, we evaluate modified ResNet18 model (using LayerNorm instead of BatchNormalization) to achieve **82.99%** test accuracy on CIFAR-10 dataset. 
 
 Notebook used for training can be found [here](https://github.com/rajy4683/EVA6/blob/master/EVA6S8/EVA6S8_SingleScript.ipynb)
 
