@@ -87,9 +87,9 @@ Samples of Augmented images are below:
 For debugging CNNs, GradCam is an important tool. Below are samples of misclassified images and GradCam applied to understand where the model tends to focus:
 ![Misclassified Images](https://github.com/rajy4683/EVA6/blob/master/EVA6S8/imgs/EVA6S8_Misclassified.png)
 
-![GradCam Images at Layer 2](https://github.com/rajy4683/EVA6/blob/master/EVA6S8/imgs/EVA6S8_GradCamL16.png)
-
-![GradCam Images at Layer 3](https://github.com/rajy4683/EVA6/blob/master/EVA6S8/imgs/EVA6S8_GradCamL8.png)
+| GradCam at Layer 2 (16x16)                                   | GradCam at Layer 3 (8x8)                                     |
+| ------------------------------------------------------------ | ------------------------------------------------------------ |
+| ![GradCam Images at Layer 2](https://github.com/rajy4683/EVA6/blob/master/EVA6S8/imgs/EVA6S8_GradCamL16.png) | ![GradCam Images at Layer 3](https://github.com/rajy4683/EVA6/blob/master/EVA6S8/imgs/EVA6S8_GradCamL8.png) |
 
 ## Training Logs
 
