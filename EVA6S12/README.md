@@ -16,7 +16,7 @@ In essence, an STN can be created using any combination of CNN and/or Linear lay
 
 Please refer to this **[notebook](https://github.com/rajy4683/EVA6/blob/master/EVA6S12/EVA6_S12_STN.ipynb)** or the  **[Colab Link](https://colab.research.google.com/drive/1eyJ7F6tvvRjh9uu8kUzi67CB2HMHHHnC?usp=sharing)**  for complete implementation and training mechanism.
 
-We use a modified version of the STN which has 3 Convolutional Layers followed by Max Polling and Final linear blocks that outputs the final transformation matrix of shape [B, C, 3, 2]. Next we use PyTorch's `affine_grid` and `grid_sample` functions to combine the transformation matrix with the input feature image. The output of the STN block is finally passed through a Custom CNN network to perform final classification.
+We use a modified version of the STN which has 3 Convolutional Layers followed by Max Polling and Final linear blocks that outputs the final transformation matrix of shape [B, C, 3, 2]. Next we use PyTorch's `affine_grid` and `grid_sample` functions to combine the transformation matrix with the input feature image. The output of the STN block is finally passed through a [Custom CNN network](https://github.com/rajy4683/EVA6/blob/master/EVA6S7/README.md) to perform final classification.
 
 Below is the model summary:
 
