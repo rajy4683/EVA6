@@ -16,13 +16,13 @@ Now the comparison between ground truth and the predictions becomes a set predic
 1. For class predictions: Cross Entropy loss  
 2. For bounding-box losses: Generalized Intersection-Over-Union  + L1 Norm.
 
-![DETR Model]()
+![DETR Model](https://github.com/rajy4683/EVA6/blob/master/EVA6S14/imgs/detr_model.jpg)
 
-![DETR Model]()
+![DETR Model](https://github.com/rajy4683/EVA6/blob/master/EVA6S14/imgs/detr_model2.jpg)
 
 ## Fine Tuning with DETR
 
-Please refer to this **[notebook](https://github.com/rajy4683/EVA6/blob/master/EVA6S12/EVA6_S12_STN.ipynb)** or the  **[Colab Link](https://colab.research.google.com/drive/1eyJ7F6tvvRjh9uu8kUzi67CB2HMHHHnC?usp=sharing)**  for fine-tuning on custom dataset.
+Please refer to this **[notebook](https://github.com/rajy4683/EVA6/blob/master/EVA6S14/EVA6_S14DETR.ipynb)** or the  **[Colab Link](https://colab.research.google.com/drive/1QBbbFo-ICIzW_i6K0W1uN5117XxpIjkZ?usp=sharing)**  for fine-tuning on custom dataset.
 
 
 
