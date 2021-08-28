@@ -45,7 +45,7 @@ IoU metric: bbox
  Average Recall     (AR) @[ IoU=0.50:0.95 | area= large | maxDets=100 ] = -1.000
 ```
 
-![Accuracy plots](https://github.com/rajy4683/EVA6/blob/master/EVA6S14/imgs/traininglogs.jpg))
+![Accuracy plots](https://github.com/rajy4683/EVA6/blob/master/EVA6S14/imgs/traininglogs.png)
 
 
 
